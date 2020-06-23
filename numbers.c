@@ -11,7 +11,6 @@ struct person{
 
 struct person per[10];
 int option = 1;
-struct person *ptr = per;
 char help[] = "Select option: \n 1 - Create new user \n 2 - List of users \n 3 - Find user for number \n 4 - Delete user \n 5 - Menu \n 0 - exit \n";
 int counter = 0;
 int find_number = 0;
